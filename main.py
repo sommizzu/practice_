@@ -1,1 +1,1 @@
-print("someee")
+print("A+")
