@@ -1,6 +1,5 @@
-phone_number = "010-1111-2222"
-phone_number1 = phone_number.replace("-", " ")
-print(phone_number1)
+#string = 'abcdfe2a354a32a' -> 맨 앞글자 대문자로 바꾸기
 
-
-#phone_number = "010-1111-2222"에서 하이픈뺴고 출력하기
+string = 'abcdfe2a354a32a'
+string = string.replace('a', 'A')
+print(string)
