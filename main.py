@@ -1,5 +1,3 @@
-# 리스트를 튜플로 변환 
-
-interest = ['삼성전자', 'LG전자', 'SK Hynix']
-
-data = tuple(interest)
+temp = ('apple', 'banana', 'cake')
+a, b, c = temp
+print(a, b, c)
