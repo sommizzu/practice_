@@ -1,4 +1,5 @@
-#my_variable 비어 있는 튜플로 만들기
+#튜플 리스트로 변환하기 
 
-my_variable = ()
-print(type(my_variable))
+interest = ('삼성전자', 'LG전자', 'SK Hynix')
+
+data = list(interest)
