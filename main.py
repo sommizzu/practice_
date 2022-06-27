@@ -1,5 +1,5 @@
-#튜플 리스트로 변환하기 
+# 리스트를 튜플로 변환 
 
-interest = ('삼성전자', 'LG전자', 'SK Hynix')
+interest = ['삼성전자', 'LG전자', 'SK Hynix']
 
-data = list(interest)
+data = tuple(interest)
