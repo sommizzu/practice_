@@ -1,4 +1,7 @@
-#1~99 짝수만 저장된 튜플 생성하기 
+#10개의 값이 저장된 scores 리스트가 있을 때, start expression을 사용하여 좌측 8개의 값을 valid_score 변수에 바인딩하여라.
 
-data = tuple(range(1, 100, 2))
-print( data )
+scores = [8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]
+
+scores = [8.8, 8.9, 8.7, 9.2, 9.3, 9.7, 9.9, 9.5, 7.8, 9.4]
+*valid_score, _, _= scores
+print(valid_score)
