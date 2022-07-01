@@ -1,7 +1,6 @@
-#함수 정의 하기 
+#파이썬 모듈 
 
-def print_coin():
-    print("비트코인")
+import datetime
 
-for i in range(100):
-  print_coin()
+now = datetime.datetime.now()
+print(now)
