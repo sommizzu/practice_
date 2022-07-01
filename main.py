@@ -1,8 +1,6 @@
-# fruit 딕셔너리가 정의되어 있다. 사용자가 입력한 값이 딕셔너리 키 (key) 값에 포함되었다면 "정답입니다"를 아닐 경우 "오답입니다" 출력하라.
+#예시 리스트 출력 하시오. (range활용)
 
-fruit = {"봄" : "딸기", "여름" : "토마토", "가을" : "사과"}
-user = input("제가좋아하는계절은: ")
-if user in fruit:
-    print("정답입니다.")
-else:
-    print("오답입니다.")
+price_list = [32100, 32150, 32000, 32500]
+
+for i in range(4):
+    print(price_list[i])
