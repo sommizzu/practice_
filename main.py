@@ -1,6 +1,1 @@
-#파이썬 모듈 
-
-import datetime
-
-now = datetime.datetime.now()
-print(now)
+#파이썬 클래스는 타입을 만들어내는 도구
