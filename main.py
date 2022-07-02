@@ -1,6 +1,6 @@
-#비어있는 클래스 정의 하기 
+#사람 (Human) 클래스의 인스턴스를 "생성" 하고 이를 areum 변수로 바인딩
 
 class Human:
     pass
 
-#비어있는 Human이라는 클래스 정의 
+areum = Human()
