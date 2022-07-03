@@ -4,3 +4,5 @@ class Human:
     pass
 
 areum = Human()
+
+print(Human)
