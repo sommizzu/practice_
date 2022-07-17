@@ -1,3 +1,9 @@
-print('A1','A2',sep=',')
+result = 0
 
-#Sep 파라미터로 구분자 지정
+def add(num):
+    global result
+    result += num
+    return result
+
+print(add(3))
+print(add(4))
